@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 body{
     margin: 0;padding: 0;
 }
@@ -10,9 +11,23 @@ body{
     h1{
         font-size: 50px;
         font-family: 'Oswald', sans-serif;
+        color: rgb(255, 41, 112);
+        margin-bottom: -8px;
+       
     }
-    .name-highlight{
-        color: rgb(115, 121, 04);
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        color:rgb(41, 183, 229);
+        font-size: 20px;
+    }
+    p{
+        color: rgb(69, 69, 69);
+        font-family:'Lora', serif;
+    }
+    .orange-highlight{
+        color:orange;
     }
     .half-width{
         width: 42%;
@@ -29,14 +44,63 @@ body{
      height: 500px;
      padding-bottom: 150px;
     }
-.link-button{
-    text-decoration: none;
-    border: 1px solid orange;
-    background-color: olivedrab;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-weight: 400;
-    background-image: linear-gradient( 45deg,lightsalmon,tomato);
-}
+    .link-button{
+        text-decoration: none;
+        border: 1px solid orange;
+        background-color: olivedrab;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-weight: 400;
+        background-image: linear-gradient( 45deg,lightsalmon,tomato);
+    }
+    .drem img{
+        height: 273px;
+        box-shadow: -10px 10px 25px #888888;
+        margin-top: 40px;
+    }
+    .drem-area{
+        height: 200px;
+        background-image: url("bg-images/biography-bg.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 100%;
+        
+    }
+    .expreince-area{
+        background-image: url(portfolio/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        height: 350px;
+        
+    }
+    #exper{
+        margin-left: 56px;
+        padding-bottom: 30px;
+    }
+    .single-experince{
+        box-shadow: 8px 8px 30px gray;
+        border-radius: 3px;
+        height: 300px;
+        margin-left: 58px;
+        background-color: #fff;
+    }
+    #full-stack{
+        border-left: solid 7px;
+        border-image: linear-gradient(160deg,rgb(76, 252, 105),rgb(77, 168, 126));
+        border-image-slice:1 ;
+    }
+    #baby-web{
+        border-left: solid 7px;
+        border-image: linear-gradient(160deg,rgb(71, 247, 194),rgb(243, 240, 80));
+        border-image-slice:1 ;
+    }
+    footer p{
+        font-size: 20px;
+        color: #888888;
+        text-align: center;
+    }
+    .half-width h2{
+        color: rgb(235, 90, 65);
+    }
